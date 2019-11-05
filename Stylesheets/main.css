@@ -95,7 +95,7 @@ body{
 
 .vrInfo p{
     padding-top: 20vh;
-    padding-right: 10em;
+    padding-left: 10em;
 }
 
 .smallScreen{
@@ -129,6 +129,39 @@ body{
 
 .carousel-inner{
     background-color: #373737;
+}
+
+.panelFive{
+    min-height: 100vh;
+    background-image: url('../Resources/Images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center -45em;
+    background-size: contain;
+}
+
+.services{
+    padding-top: 35vh;
+}
+
+.servicesTitle{
+    font-weight: bolder;
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+
+.subService{
+    padding-top: 1em;
+    font-weight: bolder;
+}
+
+.serviceInfo{
+    padding-top: 3em;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+.serviceButton{
+    margin-top: 3em;
 }
 
 @media (max-width: 786px){
