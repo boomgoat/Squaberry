@@ -40,7 +40,7 @@ body{
 .panelTwo{
     background-color: #373737;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
@@ -72,7 +72,7 @@ body{
 
 .panelThree{
     color: black;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../Resources/Images/NoPath\ -\ Copy\ \(2\).png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body{
 
 .vrInfo p{
     padding-top: 20vh;
-    padding-left: 10em;
+    padding-right: 10em;
 }
 
 .smallScreen{
@@ -345,10 +345,13 @@ body{
         padding: 1rem;
         font-weight: bolder;
     }
+    .panelOne{
+        background-position: center 30em;
+    }
     .panelTwo{
         background-color: #373737;
         color: white;
-        height: 120vh;
+        min-height: 160vh;
         -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
         box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
@@ -366,7 +369,7 @@ body{
     }
     .panelThree{
         color: black;
-        height: 120vh;
+        min-height: 160vh;
         overflow: hidden;
         background-image: url('../Resources/Images/NoPath\ -\ Copy\ \(2\).png');
         background-position: bottom;
@@ -381,6 +384,9 @@ body{
     .vrInfo p{
         padding-top: 0;
         padding-right: 0;
+    }
+    .panelFive{
+        background-position: center -20em;
     }
     .mainScreen{
         display: none;
