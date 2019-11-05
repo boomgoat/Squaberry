@@ -6,16 +6,18 @@
         <link rel="icon" href="./Resources/Images/logo.png">
         <title>Squaberry Studios</title>
         <link type="text/css" rel="stylesheet" href="./Stylesheets/main.css"/>
+        <link type="text/css" rel="stylesheet" href="./Stylesheets/form.css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
         <script src="./Scripts/main.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Menu -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%)!important;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background: linear-gradient(to bottom, rgba(255,255,255,1) 75%, rgba(255,255,255,0) 100%)!important;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -243,6 +245,113 @@
                     </div>
                 </div>
             </div>
+            <!-- Team Panel End -->
+
+            <!-- Clients Panel -->
+            <div class="panelSeven container">
+                <h1 class="clientTitle">
+                    OUR CLIENTS
+                </h1>
+                <section class="customer-logos slider">
+                    <div class="slide"><img src="./Resources/Images/Clients/C1.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C2.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C3.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C4.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C5.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C6.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C7.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C8.png"></div>
+                    <div class="slide"><img src="./Resources/Images/Clients/C9.png"></div>
+                </section>
+            </div>
+            <!-- Client Panel End -->
+
+            <!-- Get In Touch -->
+            <div class="panelEight">
+                <section class="cFormPanel col-md-8 col-12 offset-md-2 Material-contact-section section-padding section-dark">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Section Titile -->
+                            <div class="offset-md-4 col-md-4 offset-3 col-6 cTitle wow animated fadeInLeft" data-wow-delay=".2s">
+                                <h1 class="section-title">GET IN TOUCH</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!-- Section Titile -->
+                            <div class="col-md-4 cText mt-3 text-justify contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                                <p>
+                                    It is a long established fact that
+                                    a reader will be distracted by the 
+                                    readable content of a page when looking 
+                                    at its layout. The point of using 
+                                    Lorem Ipsum is that it has a more-or-less 
+                                    normal distribution of letters, as opposed 
+                                    to using Content.
+                                </p>
+                                <div class="find-widget">
+                                Company:  <a href="https://hostriver.ro">Squaberry Studios (Pvt)Ltd.</a>
+                                </div>
+                                <div class="find-widget">
+                                Address: <a href="#">Office no 7 and 8, 1st Floor, Select One Plaza,
+                                        F-11 Markaz, Islamabad</a>
+                                </div>
+                                <div class="find-widget">
+                                Phone:  <a href="#">+9251-8358039</a>
+                                </div>
+                                
+                                <div class="find-widget">
+                                Website:  <a href="https://squaberry.com">squaberry.com</a>
+                                </div>
+                                <div class="find-widget">
+                                    Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+                                </div>
+                            </div>
+                            <!-- contact form -->
+                            <div class=" col-md-6 offset-2 wow animated fadeInRight" data-wow-delay=".2s">
+                                <form class="cform shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                                    <!-- Name -->
+                                    <div class="form-group label-floating">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- email -->
+                                    <div class="form-group label-floating">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- Subject -->
+                                    <div class="form-group label-floating">
+                                        <label class="control-label">Subject</label>
+                                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="form-group label-floating">
+                                        <label for="message" class="control-label">Message</label>
+                                        <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- Form Submit -->
+                                    <div class="form-submit mt-5">
+                                        <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Form End -->
+
+            <!-- Footer -->
+            <div class="panelNine">
+
+            </div>
+            <!-- Footer End -->
         </div>
     </body>
 </html>
