@@ -98,12 +98,29 @@ body{
 }
 
 .panelFour{
-    height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 80em;
+    padding: 0!important;
+    margin: 0;
 }
 
+.carousel-item {
+    height: 100vh;
+    border-radius: 15px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-position: center;
+    background-size: 70vw;
+  }
+
+.carousel-inner{
+    border-radius: 15px;
+    background-color: #373737;
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+}
 
 @media (max-width: 786px){
     .subtitle{
@@ -158,4 +175,7 @@ body{
         margin-top: -20vh!important;
         display: block;
     }
+    .carousel-item {
+        background-size: 90vw;
+      }
 }
