@@ -16,6 +16,10 @@ body{
     padding-right: 2em;
 }
 
+.nav-item h5{
+    font-weight: bolder!important;
+}
+
 .panelOne{
     height: 100vh;
     padding-top: 40vh;
@@ -34,6 +38,7 @@ body{
     list-style: none;
     display: inline-block;
     padding: 3em;
+    padding-left: 0;
     font-weight: bolder;
 }
 
