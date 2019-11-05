@@ -129,6 +129,7 @@ body{
 
 .carousel-inner{
     background-color: #373737;
+    padding-bottom: 5em;
 }
 
 .panelFive{
@@ -162,6 +163,24 @@ body{
 
 .serviceButton{
     margin-top: 3em;
+}
+
+.panelSix{
+    height: 100vh;
+    padding-top: 3em;
+}
+
+.teamTitle{
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.teamMember{
+    padding-top: 3em;
+}
+
+.centerBlock{
+    padding-top: 6em;
 }
 
 @media (max-width: 786px){
