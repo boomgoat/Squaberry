@@ -105,6 +105,19 @@ body{
     display: none;
 }
 
+.panelFour{
+    color: white;
+    background-color: #373737;
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+}
+
+.productTitle{
+    padding-top: 3em;
+    font-size: 3em;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -115,9 +128,6 @@ body{
 
 .carousel-inner{
     background-color: #373737;
-    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
 }
 
 @media (max-width: 786px){
@@ -176,6 +186,9 @@ body{
     .smallScreen{
         margin-top: -20vh!important;
         display: block;
+    }
+    .productTitle{
+        padding-top: 1em;
     }
     .carousel-item {
         background-size: 90vw;
