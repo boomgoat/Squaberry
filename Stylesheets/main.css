@@ -1,0 +1,161 @@
+body{
+    font-family: 'Dosis', sans-serif!important;
+}
+
+.nav-item{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.panelOne{
+    height: 100vh;
+    padding-top: 40vh;
+    background-image: url('../Resources/Images/logo.png');
+    background-position: center 35em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.subtitle ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3em;
+    font-weight: bolder;
+}
+
+.panelTwo{
+    background-color: #373737;
+    color: white;
+    height: 100vh;
+    -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+}
+
+.arBackground{
+    background-image: url('../Resources/Images/phone-image@2x.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.arText{
+    padding-top: 20vh;
+}
+
+.artitle{
+    font-size: 3em;
+    padding-right: 16.5vw;
+}
+
+.redify{
+    color: red;
+}
+
+.info{
+    color: #95989A;
+}
+
+.panelThree{
+    color: black;
+    height: 100vh;
+    background-image: url('../Resources/Images/NoPath\ -\ Copy\ \(2\).png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 80em;
+}
+
+.vrtitle{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.vrText{
+    padding-top: 20vh;
+    height: 5vh;
+}
+
+.vrBackground{
+    background-repeat: no-repeat;
+}
+
+.vrInfo p{
+    padding-top: 20vh;
+    padding-right: 10em;
+}
+
+.smallScreen{
+    display: none;
+}
+
+.arsmallScreen{
+    display: none;
+}
+
+.panelFour{
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 80em;
+}
+
+
+@media (max-width: 786px){
+    .subtitle{
+        margin-left: -2em;
+    }
+    .subtitle ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 1rem;
+        font-weight: bolder;
+    }
+    .panelTwo{
+        background-color: #373737;
+        color: white;
+        height: 120vh;
+        -webkit-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 39px 5px rgba(0,0,0,0.75);
+    }
+    .arBackground{
+        height: 50vh;
+        background-image: url('../Resources/Images/phone-image@2x.png');
+        background-position: center 2em;
+        background-size: 20em;
+        background-repeat: no-repeat;
+    }
+    .arsmallScreen{
+        padding: 2em;
+        display: block;
+    }
+    .panelThree{
+        color: black;
+        height: 120vh;
+        overflow: hidden;
+        background-image: url('../Resources/Images/NoPath\ -\ Copy\ \(2\).png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 40em;
+        text-align: center;
+    }
+    .vrTitleBlock{
+        margin-left: -3em;
+    }
+    .vrInfo p{
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .mainScreen{
+        display: none;
+    }
+    .smallScreen{
+        margin-top: -20vh!important;
+        display: block;
+    }
+}
