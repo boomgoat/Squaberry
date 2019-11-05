@@ -195,7 +195,11 @@ body{
 
 .panelEight{
     color: white;
-    height: 100vh;
+    min-height: 80vh;
+    background-image: url('../Resources/Images/Component\ 5\ –\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -6em top;
 }
 
 .cTitle{
